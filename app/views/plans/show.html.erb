@@ -1,0 +1,18 @@
+<p>
+  <b>予定</b><br />
+  <%=h @plan.content %>
+</p>
+
+<p>
+  <b>Start:</b>
+  <%= @plan.start.strftime("%d日 %H:%M～") %>
+</p>
+
+<p>
+  <b>固定する</b><br />
+  <%=h @plan.flag %>
+</p>
+
+
+<%= link_to '編集', edit_plan_path(@plan) %> |
+<%= link_to '戻る', plans_path %>

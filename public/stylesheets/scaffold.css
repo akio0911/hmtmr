@@ -1,0 +1,159 @@
+body { background-color: #fff; color: #333; }
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   10px;
+  line-height: 1.2em;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a { color: #000; }
+a:visited { color: #666; }
+a:hover { color: #fff; background-color:#000; }
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+div.uploadStatus {
+  margin: 5px;
+}
+
+div.progressBar {
+  margin: 5px;
+}
+
+div.progressBar div.border {
+  background-color: #fff;
+  border: 1px solid gray;
+  width: 100%;
+}
+
+div.progressBar div.background {
+  background-color: #333;
+  height: 18px;
+  width: 0%;
+}
+
+td.twitter{
+max-width:100px;
+}
+
+td.user0 {
+background-color: #ddbbbb;
+}
+td.user1 {
+background-color: #ddccbb;
+}
+td.user2 {
+background-color: #ddddbb;
+}
+td.user3 {
+background-color: #ccddbb;
+}
+td.user4 {
+background-color: #bbddbb;
+}
+td.user5 {
+background-color: #bbddcc;
+}
+td.user6 {
+background-color: #bbdddd;
+}
+td.user7 {
+background-color: #bbccdd;
+}
+td.user8 {
+background-color: #bbccee;
+}
+
+td.past {
+//    font-size:1.6em;
+    max-width:150px;
+    padding:5px;
+    border-bottom:1px solid black;
+    color:#ccc;
+}
+td.now {
+    font-size:2em;
+    max-width:150px;
+    padding:5px;
+    border-bottom:1px solid black;
+    color:#f00;
+}
+td.future {
+//    font-size:1.6em;
+    max-width:150px;
+    padding:5px;
+    border-bottom:1px solid black;
+    color:#000;
+}
+
+td.plan-past {
+    max-width:220px;
+    font-size:4em;
+    padding:5px;
+    border-bottom:1px solid black;
+}
+
+td.plan-now {
+    max-width:220px;
+    font-size:4em;
+    color:red;
+    padding:5px;
+    border-bottom:1px solid black;
+}
+
+td.plan-future {
+    max-width:220px;
+    font-size:4em;
+    padding:5px;
+    border-bottom:1px solid black;
+}
+td.edit {
+    width:50px;
+    font-size:1.6em;
+    border-bottom:1px solid black;
+}
+td.show {
+    width:40px;
+    padding:10px;
+    border-bottom:1px solid black;
+}
