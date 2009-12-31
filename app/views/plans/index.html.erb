@@ -35,7 +35,6 @@
     </div>
 
     <hr />
-
     <div class="new_timeline" style="margin:10px;">
       <h2>最近30分間の発言</h2>
       <% Status.hour(Time.now).each do |tw| %>
@@ -44,7 +43,6 @@
         <%= tw.status_text %> |
       <% end %>
       </div>
-
 <hr />
 
 <% start_time = DateTime.new(2008,12,31,12) %>
