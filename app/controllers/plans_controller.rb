@@ -13,7 +13,8 @@ class PlansController < ApplicationController
       now_time = Time.now-2.hour
       end_time = Time.now+14.hour
     end
-    @plans = Plan.find(:all, :order => "start", :conditions => ["start between ? and ? ", now_time, end_time])
+#    @plans = Plan.find(:all, :order => "start", :conditions => ["start between ? and ? ", now_time, end_time])
+    @plans = Plan.find(:all, :order => "start")
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @plans }
