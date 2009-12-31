@@ -6,7 +6,7 @@ require "open-uri"
 
 class Status < ActiveRecord::Base
   ACCOUNTS=[
-    {:twitter => "github"  , :ustream => nil},
+#    {:twitter => "github"  , :ustream => nil},
     # {:twitter => "ssig33"   , :ustream => 28719},
     {:twitter => "yuiseki"  , :ustream => 69676},
     {:twitter => "oquno"    , :ustream => 126804},
