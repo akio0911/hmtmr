@@ -42,10 +42,10 @@ module PlansHelper
         end
       end
     else
-      string += "<td class=\"now\">"
-      string += start_to_string(plan.start, i)
-      string += ' now!'
-      string += "</td>"
+#       string += "<td class=\"now\">"
+#       string += start_to_string(plan.start, i)
+#       string += ' now!'
+#       string += "</td>"
 
       if i == 0
         string += "<td class=\"plan-now\" rowspan=\"#{ROWSPAN}\">"
