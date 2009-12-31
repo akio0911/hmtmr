@@ -1,5 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
-  map.root :controller=> "plans", :action=>'index'
+#  map.root :controller=> "plans", :action=>'index'
   map.connect '/all', :controller=>"plans", :action=>"all"
   map.resources :plans
 
