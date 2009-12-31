@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 class PlansController < ApplicationController
   caches_page :index
+  expire_page :index
   def index
     if params[:datetime] and params[:datetime].size == '2008010203'.size
       y = params[:datetime][0,4].to_i
